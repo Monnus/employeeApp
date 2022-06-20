@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 
 
 function LeftAndRightSide(){
-   
+
     return (
         <>
 <div className="BGImage" style={{background:`url(${IMAGES.bgIMAGE1})`}}>
@@ -22,7 +22,7 @@ function LeftAndRightSide(){
 </div>
  <div className="FormInputs">
  
-    <img src={loginIMG} alt="missing profile imgaf" style={{width:"200px",height:"200px",background:"gray",borderRadius:"100%",margin:"0 0 50px 0"}}/>
+    <img src={loginIMG} alt="missing profile img" style={{width:"200px",height:"200px",background:"gray",borderRadius:"100%",margin:"0 0 50px 0"}}/>
         <form>
         <label>Employee Id:</label>
         <br></br>

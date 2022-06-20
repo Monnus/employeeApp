@@ -9,9 +9,12 @@
     height:800px;
     margin-top: 50px;
     margin-right: 50px;
-    background:gray;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.3),gray,lightgray);
+    box-shadow: 0 0 35px lightgray;
+ 
     border-radius:-60px 0 0 0;
     float:right
-}
     
+}
+
     

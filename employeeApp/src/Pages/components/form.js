@@ -251,26 +251,26 @@ console.log(user);
         <>
       <div className="leftsideFrorm">
         {/* form elements */}
-        <div><h2><Link to="/pages/sign">Sign IN</Link></h2><h2><Link to="/">Sign Up</Link></h2></div>
+        <div className="signINandsignup"><h2><Link to="/pages/sign">Sign IN</Link></h2><h2><Link to="/">Sign Up</Link></h2></div>
         <form >
                   <label>First Name*</label>
                 <br></br>    
-                  <input placeholder='First Name' required name="fname" type="text" className="fname" ref={name}/>
+                  <input placeholder='First Name' required name="fname" type="text" className="fname textInupts" ref={name}/>
                   <br></br>
                   <br></br>
                   <label>Last Surname*</label>
                 <br></br>
-                  <input placeholder='Last Name' required name="Lname" type="text" className="Lname" ref={surname}/>
+                  <input placeholder='Last Name' required name="Lname" type="text" className="Lname textInupts" ref={surname}/>
                   <br></br>
                   <br></br>
                   <label>Phone number*</label>
                 <br></br>  
-                  <input placeholder='+27' type="text" required name="Phone" className="number" ref={number}/>
+                  <input placeholder='+27' type="text" required name="Phone" className="number textInupts" ref={number}/>
                   <br></br>
                   <br></br>
                   <label>Email*</label>
                 <br></br>
-                  <input placeholder='...@gmail.com' type="email" required name="email" className="email" ref={email}/>
+                  <input placeholder='...@gmail.com' type="email" required name="email" className="email textInupts" ref={email}/>
             <br></br>
             <br></br>
             <hr></hr>
@@ -281,21 +281,21 @@ console.log(user);
             <br></br>
             <label>employee Num*</label>
             <br></br>
-            <input placeholder='Paste emplyee number' required type="text" name="employeeNumber" className="emplyeeNumber" ref={employeeNumber}/>
+            <input placeholder='Paste employee number' required type="text" name="employeeNumber" className="emplyeeNumber textInupts" ref={employeeNumber}/>
             <br></br>
             <br></br>
             <label>Password*</label>
             <br></br>
-            <input type="Password" placeholder='Password' required name="Password" className="password" ref={password}/>
+            <input type="Password" placeholder='Password' required name="Password" className="password textInupts" ref={password}/>
             <br></br>
             <br></br>
 
-            <button type='submit' onClick={submitBtn}>submit</button>
+            <button type='submit' onClick={submitBtn} className="submit">submit</button>
         </form>
       </div>
 <div className="rightsideForm">
-<button className="submit" onClick={getEmplyeenumber}>Get ID</button>
-<p>Your employee Id is: <span style={{color:"red"}}>{employeeID}</span></p>
+<button className="getId" onClick={getEmplyeenumber}>Get ID</button>
+<p>Your employee Id is: <span style={{color:"yellow",fontSize:"25px"}}>{employeeID}</span></p>
 </div>
         </>
     )

@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 const IMAGES={
  bgIMAGE1:require("./images/styleIMG/signinBackgroundDesign.jpg"),
- logo:require("./images/logo.jpg")
+ logo:require("./images/logo.jpg"),
+ loginWallpaper:require("./images/styleIMG/patternbackground.png")
 };
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
